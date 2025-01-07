@@ -13,6 +13,14 @@ fetch('/assets/json/games.json')
       `;
 
             gameElement.addEventListener('click', async () => {
+                if (game.name == "Fortnite") {
+                    open("/scram/service/" + encodeURIComponent("https://play.geforcenow.com/mall/#/deeplink?game-id=46bfab06-d864-465d-9e56-2d9e45cdee0a"), '_blank');
+                    return;
+                }
+                if (game.name == "Bloons TD Battles 2") {
+                    open("/scram/service/" + encodeURIComponent("https://play.geforcenow.com/mall/#/deeplink?game-id=d3b8fd6f-cad3-4779-94c3-b4617714de0c"), '_blank');
+                    return;
+                }
                 var ute = game.url;
                 if (localStorage.getItem("proxy") == "uv") {
                     ute = __uv$config.prefix + __uv$config.encodeUrl(ute);
