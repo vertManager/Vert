@@ -17,7 +17,7 @@ fetch('/assets/json/games.json')
                 if (localStorage.getItem("proxy") == "uv") {
                     ute = __uv$config.prefix + __uv$config.encodeUrl(ute);
                     localStorage.setItem('url', ute);
-                    window.location.href = '/browser.html';
+                    window.location.href = '/browser';
                 }
                 else if (localStorage.getItem("proxy") == "sj") {
                     sjEncode();
@@ -33,7 +33,7 @@ fetch('/assets/json/games.json')
                 async function sjEncode() {
                     ute = "/scram/service/" + encodeURIComponent(ute);
                     localStorage.setItem("url", ute);
-                    window.location.href = "/browser.html";
+                    window.location.href = "/browser";
                 }
             });
 

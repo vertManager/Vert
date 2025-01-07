@@ -367,7 +367,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     margin-top: -40px;
-    margin-left: 12vh;
+    translate: 6vh;
 }
 
 #appslogo {
@@ -475,7 +475,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     margin-top: -40px;
-    margin-left: 12vh;
+    translate: 6vh;
 }
 
 #time {
