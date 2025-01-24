@@ -1,5 +1,6 @@
 var form = document.getElementById("form");
 var input = document.getElementById("input");
+var discord = document.getElementById("discord");
 
 
 
@@ -108,5 +109,12 @@ if (form && input) {
         }
     });
 
+}
+
+if (discord) {
+    discord.addEventListener("click", async (event) => {
+        await navigator.clipboard.writeText("https://discord.gg/boltunblocker");
+        alert('💪🔥 Invite link copied to clipboard!');
+    });
 }
 

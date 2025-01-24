@@ -52,7 +52,7 @@
     {
         "name": "Karlson't",
         "image": "https://www.gamenora.com/upload/games/thumbnails/Karlson.webp",
-        "url": "https: //jankiestgame.netlify.app/"
+        "url": "https://jankiestgame.netlify.app/"
     },
     {
         "name": "GeoGuessr",
@@ -90,6 +90,11 @@
         "url": "https://eaglercraft.dev/clients/Precision/"
     },
     {
+        "name": "Defly.io",
+        "image": "https://e.snmc.io/lk/o/x/b465d32bfc26221707c8f15707279882/8325627",
+        "url": "https://defly.io/"
+    },
+    {
         "name": "Smash Karts",
         "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTt7NW-3M9KpVqtKVaZUQKxa6vPEIveThVW2ifVbOyQHCL6xB68LjkArRFyIl_XLpeAD2n3",
         "url": "https://smashkarts.io/"
@@ -115,9 +120,29 @@
         "url": "https://1v1.lol/"
     },
     {
+        "name": "Bitlife",
+        "image": "https://ph-files.imgix.net/9f141f78-f7a2-47b1-8991-6aded4ced032.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&fit=crop&frame=1",
+        "url": "https://xlegends.github.io/bitlife/"
+    },
+    {
+        "name": "Build Royale",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfqMKiGen3E5qPs_P-WChB5GkXa-3fbyW4WtFPjPIIl8f5TZvc6TAfUkIN4LoLL9M_6O7Z",
+        "url": "https://buildroyale.io/"
+    },
+    {
+        "name": "Tiny Fishing",
+        "image": "https://htmlxm.github.io/thumb/tiny-fishing.png",
+        "url": "https://tiny-fishing.github.io/games/tinyfishing.html"
+    },
+    {
         "name": "Big Tower Tiny Square",
         "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/31267928/1438b7997dfcb1c2b1c368b3e4efe2c380368460.png",
         "url": "https://storytellergame.io/gg/big-tower-tiny-square-unblocked/"
+    },
+    {
+        "name": "Idle Breakout",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRGFxVRkQzEuoOHq-_9bw5GMCGksvq2eDoz-nPjR9qLeHw5q3emDurnvVeCCa7TbePVcNg5Dw",
+        "url": "https://idle-breakout.neocities.org/"
     },
     {
         "name": "N-Gon",
