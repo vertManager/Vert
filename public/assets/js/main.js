@@ -140,7 +140,7 @@ if (form && input) {
 
 if (discord) {
     discord.addEventListener("click", async (event) => {
-        await navigator.clipboard.writeText("https://discord.gg/Td7v7Acm5s");
+        await navigator.clipboard.writeText("https://www.guilded.gg/i/EN54yvXp");
         alert('💪🔥 Invite link copied to clipboard!');
     });
 }
