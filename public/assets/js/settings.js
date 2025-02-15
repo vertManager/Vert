@@ -1,6 +1,7 @@
 var proxySelect = document.getElementById("proxy-select");
 var transSelect = document.getElementById("trans-select");
-var ab = document.getElementById("ab");
+var sl = document.getElementById("sl");
+var gc = document.getElementById("gc");
 var blooket = document.getElementById("blooket");
 var gimkit = document.getElementById("gimkit");
 var tab = 0;
@@ -30,33 +31,15 @@ if (transSelect) {
   });
 }
 
-if (ab) {
-  ab.addEventListener("click", function () {
-    var abtab = window.open("about:blank", "blank");
-    abtab.document.write(`
-  <html>
-    <head>
-      
-      <style>
-        body, html {
-          margin: 0;
-          padding: 0;
-          width: 100%;
-          height: 100%;
-        }
-        iframe {
-          width: 100%;
-          height: 100%;
-          border: none;
-        }
-      </style>
-    </head>
-    <body>
-      <iframe src="/index.html" frameborder="0"></iframe>
-    </body>
-  </html>
-`);
-    window.location.href = "https://classroom.google.com/u/";
+if (sl) {
+  sl.addEventListener("click", function () {
+    localStorage.setItem("cloak", "sl")
+  });
+}
+
+if (gc) {
+  gc.addEventListener("click", function () {
+    localStorage.setItem("cloak", "gc")
   });
 }
 
