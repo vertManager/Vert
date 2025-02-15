@@ -1,7 +1,18 @@
 var form = document.getElementById("form");
 var input = document.getElementById("input");
 var discord = document.getElementById("discord");
-
+var cloak = localStorage.getItem("cloak");
+if (!cloak == "sl" || !cloak == "gc") {
+    localStorage.setItem("cloak", "gc");
+    cloak = "gc";
+    document.title = "Home";
+} else if (cloak == "sl") {
+    document.title = "Home | Schoology";
+    document.getElementById("favicon").href = "https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico";
+} else if (cloak == "gc") {
+    document.title = "Home";
+    document.getElementById("https://lh5.googleusercontent.com/5hLYmh0QhidGyUgqZaWlIndtUDk5Cxs-wBEHdABAfLouLKXv3_WX7N0Z630VCmKIEqYa6y75mjR-5EwWsNTg14_l6gsFYHJXyMXwMVGc8M3u5Ht6").href = "https://lh5.googleusercontent.com/5hLYmh0QhidGyUgqZaWlIndtUDk5Cxs-wBEHdABAfLouLKXv3_WX7N0Z630VCmKIEqYa6y75mjR-5EwWsNTg14_l6gsFYHJXyMXwMVGc8M3u5Ht6";
+}
 
 
 
